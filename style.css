@@ -1,0 +1,66 @@
+.babylonica-regular {
+    font-family: "Babylonica", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 75pt;
+}
+
+.logo{
+  background-color: #004AAD;
+}
+
+.nav-pills .nav-link.active{
+  color: white;
+  background-color: #FF3131;
+  
+}
+
+.nav {
+    --bs-nav-link-color: white;
+    --bs-nav-link-hover-color: #ff3131;
+}
+.Footer{
+  background-color: #004AAD;
+  color: #FF3131;
+}
+
+body{
+  font-family: EB Garamond;
+}
+
+.discography > * {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media (max-width: 767px){
+  .hero {
+  text-align: center;
+  }
+  .babylonica-regular{
+    font-size: 50pt
+  }
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .Previous  > * {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  }
+
